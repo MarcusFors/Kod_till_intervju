@@ -1,0 +1,42 @@
+Starta programmet
+
+Skapa en tom lista som heter packLista
+
+Skriv ut "Skriv in 5 saker du vill packa:"
+
+Så länge listan har färre än 5 saker:
+    Skriv ut nummer (Count + 1)
+    Läs in ett föremål från användaren
+    Lägg till föremålet i listan
+
+Starta en evig loop:
+    Rensa skärmen
+    Skriv ut "--- Packlista ---"
+
+    För varje sak i listan, skriv ut:
+        index + 1 och föremålet
+
+    Skriv ut:
+        1. Byt ut ett objekt
+        2. Avsluta
+
+    Läs in användarens val
+
+    Om val är "2":
+        Skriv ut "Avslutar programmet..."
+        Avsluta loopen
+
+    Om val är "1":
+        Skriv ut "Vilket nummer vill du byta ut (1–5):"
+        Läs in ett tal och försök omvandla till heltal
+
+        Om talet är mellan 1 och 5:
+            Fråga efter nytt föremål
+            Ta bort det gamla föremålet på (index - 1)
+            Lägg in det nya föremålet på samma plats
+
+    Annars:
+        Skriv ut "Fel val. Tryck på en tangent."
+        Vänta på knapptryckning
+
+Skriv ut "Programmet avslutat"

@@ -1,0 +1,26 @@
+Starta programmet
+
+Läs in en rad från användaren med tre heltal (x, y, n) separerade med mellanslag
+
+Dela upp raden i tre delar
+Spara det första talet som variabel x
+Spara det andra talet som variabel y
+Spara det tredje talet som variabel n
+
+Starta en loop som går från 1 till n (inklusive):
+
+    Skapa en tom textsträng som heter output
+
+    Om det aktuella talet är jämnt delbart med x:
+        Lägg till texten "Fizz" i output
+
+    Om det aktuella talet är jämnt delbart med y:
+        Lägg till texten "Buzz" i output
+
+    Om output är tom (det vill säga att talet inte var delbart med varken x eller y):
+        Skriv ut själva talet
+
+    Annars:
+        Skriv ut innehållet i output (som kan vara "Fizz", "Buzz" eller "FizzBuzz")
+
+Avsluta programmet

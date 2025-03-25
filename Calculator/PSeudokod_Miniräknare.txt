@@ -1,0 +1,23 @@
+Starta programmet
+
+Sätt en boolesk variabel "kör" till true
+
+Så länge kör är true:
+
+    Rensa skärmen
+    Skriv rubriken "MINIRÄKNARE"
+
+    Be användaren skriva in ett första tal
+    Om användaren inte skriver ett giltigt tal:
+        Visa felmeddelande
+        Pausa och fortsätt till nästa loopvarv
+
+    Be användaren skriva in en operator (+, -, *, /)
+
+    Be användaren skriva in ett andra tal
+    Om användaren inte skriver ett giltigt tal:
+        Visa felmeddelande
+        Pausa och fortsätt till nästa loopvarv
+
+    Skapa variabel "resultat" för att spara svaret
+    Skapa en bool
